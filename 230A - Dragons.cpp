@@ -31,7 +31,7 @@ int main()
     {
         for(int j = 1; j<2; j++)
         {
-            if(vect[i][j-1]<=x)
+            if(vect[i][j-1]<x)
             {
                 x +=vect[i][j] ;
                 cnt++;
